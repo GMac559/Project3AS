@@ -1,2 +1,24 @@
 ﻿body {
+    background-color: lightseagreen;
+    text-align: center;
+    font-family: Ebrima;
+}
+
+img {
+    width: 450px;
+    height: 350px;
+    border: 2px solid black;
+}
+
+p.desc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45em;
+}
+
+a.gamelink {
+    font-size: 20px;
+    color: darkslategray;
+    text-decoration: none;
 }
