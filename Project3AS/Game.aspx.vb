@@ -1,6 +1,5 @@
 ﻿Public Class Game
     Inherits System.Web.UI.Page
-
     Public Class Card
         Public Property Suit As String
         Public Property Rank As Integer
