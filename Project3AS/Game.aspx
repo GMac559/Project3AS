@@ -10,6 +10,7 @@
             color: white;
         }
     </style>
+    <link rel="stylesheet" href="StyleSheet2.css" />
 </head>
 <body>
     <form id="form1" runat="server">
