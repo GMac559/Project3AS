@@ -92,18 +92,18 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CardGameForm.aspx" />
+    <Content Include="Game.aspx" />
     <Content Include="HtmlPage1.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="StyleSheet2.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CardGameForm.aspx.designer.vb">
-      <DependentUpon>CardGameForm.aspx</DependentUpon>
+    <Compile Include="Game.aspx.designer.vb">
+      <DependentUpon>Game.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CardGameForm.aspx.vb">
-      <DependentUpon>CardGameForm.aspx</DependentUpon>
+    <Compile Include="Game.aspx.vb">
+      <DependentUpon>Game.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />

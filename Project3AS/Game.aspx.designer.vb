@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class CardGameForm
+Partial Public Class Game
 
     '''<summary>
     '''form1 control.
