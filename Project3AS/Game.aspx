@@ -22,30 +22,40 @@
                 <br />
             </div>
             <div class="auto-style1">
-                <asp:Label ID="deck1RankLabel" runat="server" BackColor="#CC0000" CssClass="deck1RankLabel" Font-Size="32px" Height="100px" style="border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black;" Text="Label" Width="165px"></asp:Label>
-                <asp:Label ID="deck2RankLabel" runat="server" BackColor="#0033CC" CssClass="deck2RankLabel" Font-Size="32px" Height="100px" Text="Label" Width="165px"></asp:Label>
                 <br />
-                <asp:Label ID="deck1SuitLabel" runat="server" BackColor="#CC0000" BorderStyle="None" CssClass="deck1SuitLabel" Font-Size="32px" Height="109px" style="border-bottom: 1px solid black; border-left: 1px solid black; border-right: 1px solid black; text-anchor:end;" Text="Label" Width="165px"></asp:Label>
-                <asp:Label ID="deck2SuitLabel" runat="server" BackColor="#0033CC" CssClass="deck2SuitLabel" Font-Size="32px" Height="109px" Text="Label" Width="165px"></asp:Label>
+                <br />
+&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:ImageMap ID="player1IM" runat="server" Height="240px" Width="208px">
+                </asp:ImageMap>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:ImageMap ID="player2IM" runat="server" Height="240px" Width="208px">
+                </asp:ImageMap>
+                <br />
                 <br />
             </div>
             <asp:Label ID="Label1" runat="server" Text="Cards Remaining:"></asp:Label>
-            <asp:Label ID="remainingCardsLabel" runat="server" CssClass="remainingCardsLabel" Text=" 51"></asp:Label>
+            <asp:Label ID="remainingCardsLabel" runat="server" CssClass="remainingCardsLabel" Text=" 51" Font-Size="XX-Large"></asp:Label>
             <br />
             <br />
             <asp:Label ID="Label2" runat="server" Text="Player 1 Score:"></asp:Label>
-            <asp:Label ID="player1ScoreLabel" runat="server" CssClass="player1ScoreLabel" Text="0"></asp:Label>
+            <asp:Label ID="player1ScoreLabel" runat="server" CssClass="player1ScoreLabel" Text="0" Font-Size="XX-Large"></asp:Label>
             <asp:Label ID="Label3" runat="server" Text="Player 2 Score:"></asp:Label>
-            <asp:Label ID="player2ScoreLabel" runat="server" CssClass="player2ScoreLabel" Text="0"></asp:Label>
+            <asp:Label ID="player2ScoreLabel" runat="server" CssClass="player2ScoreLabel" Text="0" Font-Size="XX-Large"></asp:Label>
             <br />
             <br />
-            <asp:Button ID="drawButton" runat="server" Font-Names="Ebrima" Height="58px" Text="Draw" Width="199px" />
+            <asp:Label ID="testLabel" runat="server" Text="Label"></asp:Label>
+            <asp:Button ID="drawButton" runat="server" Font-Names="Ebrima" Height="58px" Text="Draw" Width="199px" Font-Size="XX-Large" />
+            <br />
+            <asp:Label ID="tLabel" runat="server" Text="Label"></asp:Label>
+            <br />
+            <asp:Button ID="newButton" runat="server" Height="55px" Text="New Game" Width="102px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="shuffleButton" runat="server" Font-Names="Ebrima" Height="55px" Text="Shuffle" Width="92px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Button ID="homeButton" runat="server" Height="55px" Text="Home" Width="80px" />
             <br />
             <br />
-            <asp:Button ID="shuffleButton" runat="server" Font-Names="Ebrima" Height="59px" Text="Shuffle" Width="220px" />
-            <br />
-            <br />
-            <asp:Label ID="feedbackLabel" runat="server"></asp:Label>
+            <asp:Label ID="feedbackLabel" runat="server" Font-Size="X-Large"></asp:Label>
         </div>
     </form>
 </body>

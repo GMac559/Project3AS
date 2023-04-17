@@ -32,40 +32,22 @@ Partial Public Class Game
     Protected WithEvents titleLabel As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''deck1RankLabel control.
+    '''player1IM control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents deck1RankLabel As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents player1IM As Global.System.Web.UI.WebControls.ImageMap
 
     '''<summary>
-    '''deck2RankLabel control.
+    '''player2IM control.
     '''</summary>
     '''<remarks>
     '''Auto-generated field.
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
-    Protected WithEvents deck2RankLabel As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''deck1SuitLabel control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents deck1SuitLabel As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''deck2SuitLabel control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents deck2SuitLabel As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents player2IM As Global.System.Web.UI.WebControls.ImageMap
 
     '''<summary>
     '''Label1 control.
@@ -122,6 +104,15 @@ Partial Public Class Game
     Protected WithEvents player2ScoreLabel As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''testLabel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents testLabel As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''drawButton control.
     '''</summary>
     '''<remarks>
@@ -131,6 +122,24 @@ Partial Public Class Game
     Protected WithEvents drawButton As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
+    '''tLabel control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents tLabel As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''newButton control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents newButton As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
     '''shuffleButton control.
     '''</summary>
     '''<remarks>
@@ -138,6 +147,15 @@ Partial Public Class Game
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents shuffleButton As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''homeButton control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents homeButton As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
     '''feedbackLabel control.
